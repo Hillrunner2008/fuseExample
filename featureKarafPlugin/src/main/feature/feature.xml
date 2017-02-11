@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+    <feature name="com.rh.consulting.twitter.feature" version="0.0.1" install="auto">	
+        <feature>camel-scr</feature>
+        <feature>camel-twitter</feature>
+    </feature>
+
+</features>
